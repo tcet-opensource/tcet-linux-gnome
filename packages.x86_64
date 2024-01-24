@@ -129,6 +129,8 @@ xfburn
 xorg
 gdm
 xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-gnome
 #bash-completion
 networkmanager
 network-manager-applet
@@ -138,9 +140,23 @@ virtualbox-guest-utils
 
 
 ## TCET Linux Desktop Env - Gnome
-thunar-archive-plugin
-thunar-media-tags-plugin
-gnome
+nautilus
+gnome-desktop
+gnome-clocks
+gnome-control-center
+gnome-keyring
+gnome-screenshot
+gnome-shell-extensions
+gnome-session
+gnome-shell
+gnome-backgrounds
+gnome-music
+gnome-calendar
+gnome-console
+gnome-tweaks
+#gnome-settings-daemon
+mutter
+snapshot
 
 ## TCET Linux Theme
 tela-circle-icon
