@@ -1,0 +1,209 @@
+format = """
+[░▒▓](#BAAFC6 )\
+[  ](bg:#BAAFC6 fg:#180024)\
+[](bg:#7E6B9C  fg:#BAAFC6 )\
+$directory\
+[](fg:#7E6B9C   bg:#614E7A)\
+$git_branch\
+$git_status\
+[](fg:#614E7A bg:#212736)\
+$nodejs\
+$rust\
+$golang\
+$php\
+$python\
+$aws\
+$buf\
+$c\
+$conda\
+$dart\
+$docker_context\
+$elixir\
+$elm\
+$fossil_branch\
+$guix_shell\
+$haxe\
+$hostnam\
+$java\
+$julia\
+$lua\
+$memory_usage\
+$meson\
+$nim\
+$nix_shell\
+$package\
+$pijul_channel\
+$rlang\
+$ruby\
+$scala\
+[](fg:#2C193D bg:#261132)\
+$time\
+[ ](fg:#261132)\
+\n▶▶ """
+
+[directory]
+style = "fg:#180024 bg:#7E6B9C  "
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "../"
+
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#BCEBCB"
+format = '[[ $symbol $branch ](fg:#180024 bg:#614E7A)]($style)'
+
+[git_status]
+style = "bg:#BCEBCB"
+format = '[[($all_status$ahead_behind )](fg:#180024 bg:#614E7A)]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[php]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[python]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[aws]
+symbol = "  "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[buf]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[c]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[conda]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[dart]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[docker_context]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[elixir]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[elm]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[guix_shell]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[haskell]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[haxe]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[hostname]
+ssh_symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[java]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[julia]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[lua]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[memory_usage]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[meson]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[nim]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[nix_shell]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[package]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[rlang]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[ruby]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[scala]
+symbol = " "
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#FEFEE3 bg:#2C193D)]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[  $time](fg:#FEFEE3 bg:#261132)]($style)'

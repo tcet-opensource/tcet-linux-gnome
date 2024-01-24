@@ -1,0 +1,296 @@
+##TCET Linux Live ISO Packages
+
+#ArchISO Defaults
+alsa-utils
+amd-ucode
+#arch-install-scripts
+#archinstall
+b43-fwcutter
+base
+bind
+#brltty
+#broadcom-wl
+btrfs-progs
+#clonezilla
+#cloud-init
+cryptsetup
+#darkhttpd
+#ddrescue
+dhclient
+dhcpcd
+diffutils
+#dmidecode
+#dmraid
+dnsmasq
+dosfstools
+e2fsprogs
+edk2-shell
+efibootmgr
+#espeakup
+ethtool
+exfatprogs
+f2fs-tools
+fatresize
+fsarchiver
+gnu-netcat
+gpart
+#gpm
+gptfdisk
+grub
+hdparm
+hyperv
+intel-ucode
+irssi
+#iw
+#iwd
+jfsutils
+kitty-terminfo
+less
+lftp
+libfido2
+libusb-compat
+linux-lts
+#linux-atm
+linux-firmware
+linux-firmware-marvell
+#lsb-release
+#livecd-sounds
+lsscsi
+lvm2
+#lynx
+man-db
+man-pages
+mc
+mdadm
+memtest86+
+memtest86+-efi
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+modemmanager
+mtools
+nano
+nbd
+ndisc6
+nfs-utils
+nilfs-utils
+nmap
+ntfs-3g
+nvme-cli
+#open-iscsi
+#open-vm-tools
+#openconnect
+openssh
+#openvpn
+partclone
+parted
+partimage
+pcsclite
+#ppp
+pptpclient
+pv
+qemu-guest-agent
+#refind
+reflector
+rp-pppoe
+rsync
+rxvt-unicode-terminfo
+screen
+sdparm
+sg3_utils
+smartmontools
+sof-firmware
+squashfs-tools
+sudo
+syslinux
+systemd-resolvconf
+tcpdump
+terminus-font
+testdisk
+tmux
+tpm2-tss
+udftools
+#usb_modeswitch
+usbmuxd
+usbutils
+vim
+#virtualbox-guest-utils-nox
+#vpnc
+wireless-regdb
+wireless_tools
+wpa_supplicant
+wvdial
+xfsprogs
+xl2tpd
+zsh
+
+## TCET Linux Core
+xorg
+lightdm
+lightdm-gtk-greeter
+xdg-user-dirs
+#bash-completion
+networkmanager
+network-manager-applet
+base-devel
+pacman-contrib
+virtualbox-guest-utils
+
+
+## TCET Linux Desktop Env - XFCE
+xfce4
+thunar-archive-plugin
+thunar-media-tags-plugin
+xfburn
+xfce4-battery-plugin
+xfce4-clipman-plugin
+xfce4-cpufreq-plugin
+xfce4-cpugraph-plugin
+xfce4-dict
+xfce4-diskperf-plugin
+xfce4-eyes-plugin
+xfce4-fsguard-plugin
+xfce4-genmon-plugin
+xfce4-mailwatch-plugin
+xfce4-mount-plugin
+xfce4-mpc-plugin
+xfce4-netload-plugin
+xfce4-notes-plugin
+xfce4-notifyd
+xfce4-pulseaudio-plugin
+xfce4-screensaver
+xfce4-screenshooter
+xfce4-sensors-plugin
+xfce4-smartbookmark-plugin
+xfce4-systemload-plugin
+#xfce4-taskmanager
+xfce4-time-out-plugin
+xfce4-timer-plugin
+xfce4-verve-plugin
+xfce4-wavelan-plugin
+xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+#xf86-video-intel
+#mugshot
+
+## TCET Linux Theme
+tela-circle-icon
+tcet-linux-qogir-theme
+tcet-linux-settings
+
+## TCET Linux Audio Driver and Tools
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+pavucontrol
+
+## TCET Linux Utility Packages
+gvfs
+#neofetch
+galculator
+vlc
+
+## TCET Linux Installer
+#grub
+calamares
+tcet-linux-installer-config
+os-prober
+
+
+## TCET Linux Browser
+firefox
+#tcet-linux-firefox-settings
+
+#ttf-ms-fonts
+#ttf-roboto
+#noto-fonts
+
+## TCET Linux Bluetooth Driver & Manager
+bluez
+bluez-utils
+blueman
+
+## AUR Installer and Helper
+#paru
+
+# Printer DriverS
+#cups
+#system-config-printer
+
+# Other packages
+#ttf-meslo-nerd-font-powerlevel10k
+#zsh-theme-powerlevel10k
+zsh-completions
+zsh-autosuggestions
+zsh-fast-syntax-highlighting
+nerd-fonts-noto-sans-regular-complete
+awesome-terminal-fonts
+fzf
+powerline-fonts
+#find-the-command-git
+starship
+zsh-history-substring-search
+#grml-zsh-config
+
+# Firewalld
+firewalld
+
+# Git
+git
+
+# Thunar
+xdotool
+
+# Xed as Default text editor
+xed
+
+# Duf
+duf
+
+## Gthumb image editor
+gthumb
+
+# Archive Manager
+file-roller
+
+# Neofetch Tcet
+tcet-linux-neofetch
+tcet-linux-lsb-release
+
+# Tcet Linux Welcome
+tcet-linux-welcome
+
+# Task Manager
+glances
+tcet-linux-task-manager
+
+# Calamares Desktop
+calamares-desktop
+
+# Set once 
+tcet-linux-set-once
+
+# Wallpaper
+tcet-linux-wallpaper
+
+# Mirrorlist
+tcet-linux-mirrorlist
+
+# keyring
+tcet-linux-keyring
+
+#newFont-terminal-stable
+ttc-iosevka
+
+# Aur helper
+yay
+
+#tcet-linux-keyring
+tcet-linux-keyring
+
+# Code Runner
+tcet-linux-code-runner
+
+# Cache Cleanup
+tcet-linux-cache-cleanup
