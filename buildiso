@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Installing archsio"
-sudo pacman -Sy archiso --needed
+yay -S archiso-git
 
 if [ -d "work" ] || [ -d "out" ]; then
   sudo rm -rf work/ out/

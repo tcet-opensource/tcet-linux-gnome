@@ -256,7 +256,7 @@ calamares-desktop
 tcet-linux-set-once
 
 # Wallpaper
-tcet-linux-wallpaper
+tcet-linux-gnome-wallpaper
 
 # Mirrorlist
 tcet-linux-mirrorlist
