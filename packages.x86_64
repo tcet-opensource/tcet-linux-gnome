@@ -154,7 +154,7 @@ gnome-music
 gnome-calendar
 gnome-console
 gnome-tweaks
-#gnome-settings-daemon
+gnome-settings-daemon
 mutter
 snapshot
 
@@ -252,7 +252,7 @@ tcet-linux-task-manager
 # Calamares Desktop
 calamares-desktop
 
-# Set once 
+# Set once
 tcet-linux-set-once
 
 # Wallpaper
