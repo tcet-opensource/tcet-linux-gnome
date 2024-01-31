@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="tcetlinux"
+iso_name="tcetlinux-gnome"
 iso_label="TCETLINUX_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="DemonKiller <https://demonkiller.tech>"
+iso_publisher="TCET-Opensource <https://opensource.tcetmumbai.in>"
 iso_application="TCET Linux Live/Rescue CD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="tcet"
@@ -25,4 +25,5 @@ file_permissions=(
   ["/usr/local/bin/tl-remove-nvidia"]="0:0:755"
   ["/usr/local/bin/tl-preset"]="0:0:755"
   ["/usr/local/bin/tl-finalisation"]="0:0:755"
+  ["/usr/local/bin/tlconf"]="0:0:755"
 )
