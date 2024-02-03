@@ -144,6 +144,7 @@ nautilus
 gnome-desktop
 gnome-clocks
 gnome-control-center
+gnome-bluetooth
 gnome-keyring
 gnome-screenshot
 gnome-shell-extensions
@@ -157,6 +158,11 @@ gnome-tweaks
 gnome-settings-daemon
 mutter
 snapshot
+neovim
+ripgrep
+ttf-jetbrains-mono-nerd
+npm
+nodejs
 
 ## TCET Linux Theme
 tela-circle-icon
