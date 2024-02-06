@@ -154,6 +154,7 @@ gnome-backgrounds
 gnome-music
 gnome-calendar
 gnome-console
+gnome-terminal
 gnome-tweaks
 gnome-settings-daemon
 mutter
